@@ -6,9 +6,23 @@ Reusable starter repo for new projects that need:
 - a file-based orchestration ops system
 - optional supervised automation with `tmux`
 
+## Structure
+
+```text
+.
+├── MULTI_AGENT_PLAYBOOK.md
+├── backend/
+├── frontend/
+├── data/
+├── docs/
+├── shared/
+└── ops/
+```
+
 ## What You Get
 
-- `framework/`: project-agnostic orchestration rules
+- `MULTI_AGENT_PLAYBOOK.md`: role model and collaboration rules
+- `backend/`, `frontend/`, `data/`, `docs/`, `shared/`: project skeleton
 - `ops/`: loop artifacts, scripts, templates, runtime config
 - `Makefile`: common commands for daily operation
 
