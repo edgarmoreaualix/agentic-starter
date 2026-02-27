@@ -11,6 +11,11 @@ ops/
     watch-loop.sh
   config/
     workers.env.example
+  personas/
+    orchestrator-cto.md
+    worker-backend.md
+    worker-frontend.md
+    worker-ux.md
   runtime/
     tmux.env.example
   loops/
@@ -44,3 +49,7 @@ cp ops/runtime/tmux.env.example ops/runtime/tmux.env
 - `./ops/bin/loop.sh assemble <n>`
 - `./ops/bin/watch-loop.sh run <n> [interval_seconds]`
 - `./ops/bin/watch-loop.sh status <n>`
+
+## Personas
+
+Use `ops/personas/` as the default role system prompt library for orchestrator and workers.
