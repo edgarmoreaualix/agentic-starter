@@ -1,0 +1,17 @@
+{
+  "task_id": "009-orch-03-worker-sentinel",
+  "status": "done",
+  "files_changed": [
+    "docs/apps/orch-03-webapp/bug-watch.md",
+    "docs/apps/orch-03-webapp/hardening.md"
+  ],
+  "tests_run": [
+    "test -s docs/apps/orch-03-webapp/bug-watch.md",
+    "test -s docs/apps/orch-03-webapp/hardening.md"
+  ],
+  "commit_sha": "0559f31becff53ff4b8e9f198564921305aa29bc",
+  "summary": "Documented likely failure modes with quick checks and low-risk hardening actions for the next iteration.",
+  "risks": [
+    "Task-level commit guidance was not executed as separate commits in this run."
+  ]
+}
