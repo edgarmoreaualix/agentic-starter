@@ -1,0 +1,18 @@
+{
+  "task_id": "009-orch-05-worker-qa",
+  "status": "done",
+  "files_changed": [
+    "tests/apps/orch-05-webapp/smoke.sh",
+    "tests/apps/orch-05-webapp/checklist.md",
+    "tests/apps/orch-05-webapp/result.json"
+  ],
+  "tests_run": [
+    "bash tests/apps/orch-05-webapp/smoke.sh",
+    "jq -e '.status==\"pass\" and (.checks|length>=5)' tests/apps/orch-05-webapp/result.json"
+  ],
+  "commit_sha": "",
+  "summary": "Added smoke checks for required files, payload schema, frontend contract paths, and specialist text; documented manual checklist and produced pass result JSON.",
+  "risks": [
+    "result.json is a static snapshot and is not auto-written by smoke.sh."
+  ]
+}

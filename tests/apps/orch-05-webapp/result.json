@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "checks": [
+    "backend api.json exists and required schema keys are valid",
+    "backend meta.json contains owner, loop=9, version=1",
+    "frontend app.js fetches api.json and specialist.txt via contract paths",
+    "specialist.txt is non-empty and contains owner + follow-up commitment",
+    "index.html contains required render targets for title/status/features/specialist"
+  ],
+  "files": [
+    "backend/apps/orch-05-webapp/api.json",
+    "backend/apps/orch-05-webapp/meta.json",
+    "frontend/apps/orch-05-webapp/index.html",
+    "frontend/apps/orch-05-webapp/app.js",
+    "frontend/apps/orch-05-webapp/specialist.txt"
+  ]
+}
