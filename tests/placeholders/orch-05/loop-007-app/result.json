@@ -1,0 +1,11 @@
+{
+  "project_id": "orch-05",
+  "status": "pass",
+  "checked": [
+    "backend/placeholders/orch-05/loop-007-app/config.json",
+    "backend/placeholders/orch-05/loop-007-app/api.json",
+    "frontend/placeholders/orch-05/loop-007-app/page.json",
+    "frontend/placeholders/orch-05/loop-007-app/style.json",
+    "frontend/placeholders/orch-05/loop-007-app/specialist-message.txt"
+  ]
+}
