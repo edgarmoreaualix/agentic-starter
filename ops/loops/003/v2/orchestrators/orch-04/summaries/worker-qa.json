@@ -1,0 +1,13 @@
+{
+  "task_id": "003-orch-04-worker-qa",
+  "status": "done",
+  "files_changed": [
+    "qa-note.md"
+  ],
+  "tests_run": [
+    "none"
+  ],
+  "commit_sha": "n/a",
+  "summary": "Created minimal orchestration note for worker-qa in orch-04.",
+  "risks": []
+}
