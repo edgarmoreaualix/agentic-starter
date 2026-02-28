@@ -3,7 +3,7 @@
   "status": "done",
   "files_changed": ["backend/placeholders/orch-01/loop-006-service.json","backend/placeholders/orch-01/loop-006-README.md"],
   "tests_run": ["placeholder"],
-  "commit_sha": "",
+  "commit_sha": "727d1f103a6d8c7cbbdca69d1e65c2b42baa5e1b",
   "summary": "Loop 006 placeholder artifacts created for worker-backend.",
   "risks": []
 }

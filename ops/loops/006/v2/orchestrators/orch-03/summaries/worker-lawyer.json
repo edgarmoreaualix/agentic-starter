@@ -3,7 +3,7 @@
   "status": "done",
   "files_changed": ["docs/placeholders/orch-03/loop-006-legal-note.md","docs/placeholders/orch-03/loop-006-compliance-check.md"],
   "tests_run": ["placeholder"],
-  "commit_sha": "",
+  "commit_sha": "8c6fb947079948d068b95bd1ccd66470259d0e1a",
   "summary": "Loop 006 placeholder artifacts created for worker-lawyer.",
   "risks": []
 }

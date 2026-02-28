@@ -3,7 +3,7 @@
   "status": "done",
   "files_changed": ["docs/placeholders/orch-01/loop-006-marketing-brief.md","docs/placeholders/orch-01/loop-006-marketing-copy.md"],
   "tests_run": ["placeholder"],
-  "commit_sha": "",
+  "commit_sha": "9a8f931263c5d1e03a1dae9245d31369dcd2cbb7",
   "summary": "Loop 006 placeholder artifacts created for worker-marketing.",
   "risks": []
 }
