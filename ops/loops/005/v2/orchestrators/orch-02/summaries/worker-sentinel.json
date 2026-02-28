@@ -3,7 +3,7 @@
   "status": "done",
   "files_changed": ["docs/placeholders/orch-02/loop-005-sentinel.md","docs/placeholders/orch-02/loop-005-risk-log.md"],
   "tests_run": ["placeholder"],
-  "commit_sha": "",
+  "commit_sha": "052b13c33e1cecdce2360a1cd95fb3b7ca885b66",
   "summary": "Loop 005 placeholder artifacts created for worker-sentinel.",
   "risks": []
 }
