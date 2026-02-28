@@ -1,0 +1,18 @@
+{
+  "task_id": "009-orch-06-worker-backend",
+  "status": "done",
+  "files_changed": [
+    "backend/apps/orch-06-webapp/api.json",
+    "backend/apps/orch-06-webapp/meta.json",
+    "backend/apps/orch-06-webapp/README.md"
+  ],
+  "tests_run": [
+    "jq -e '.project_id==\"orch-06-webapp\" and .color==\"pink\" and .accent==\"#eb2f96\" and .background==\"#fff0f6\" and .status==\"active\"' backend/apps/orch-06-webapp/api.json",
+    "jq -e '.loop==9 and .version==1' backend/apps/orch-06-webapp/meta.json"
+  ],
+  "commit_sha": "",
+  "summary": "Created backend payload and metadata for orch-06-webapp, plus README documenting frontend consumption contract.",
+  "risks": [
+    "No commits were created in this orchestration run."
+  ]
+}

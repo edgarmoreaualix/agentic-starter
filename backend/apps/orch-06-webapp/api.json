@@ -1,0 +1,12 @@
+{
+  "project_id": "orch-06-webapp",
+  "color": "pink",
+  "accent": "#eb2f96",
+  "background": "#fff0f6",
+  "status": "active",
+  "features": [
+    "Live backend payload",
+    "Specialist text sync",
+    "QA smoke coverage"
+  ]
+}
