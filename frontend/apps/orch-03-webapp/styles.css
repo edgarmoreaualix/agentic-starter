@@ -1,0 +1,131 @@
+:root {
+  --color-name: green;
+  --accent: #52c41a;
+  --background: #f6ffed;
+  --ink: #1f2a1f;
+  --muted: #4f5d4f;
+  --surface: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Manrope", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 0% 0%, rgba(82, 196, 26, 0.2), transparent 45%),
+    radial-gradient(circle at 100% 100%, rgba(82, 196, 26, 0.12), transparent 40%),
+    var(--background);
+}
+
+.app-shell {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid rgba(82, 196, 26, 0.25);
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 10px 28px rgba(39, 76, 15, 0.08);
+  animation: rise 420ms ease both;
+}
+
+.panel:nth-child(2) {
+  animation-delay: 80ms;
+}
+
+.panel:nth-child(3) {
+  animation-delay: 160ms;
+}
+
+.eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0.4rem 0 0.6rem;
+}
+
+h1,
+h2 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  background: #f2ffe9;
+  border: 1px solid rgba(82, 196, 26, 0.45);
+  font-size: 0.85rem;
+}
+
+.swatch {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.status {
+  margin: 0;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.feature-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.feature-list li + li {
+  margin-top: 0.35rem;
+}
+
+.specialist-panel {
+  border-left: 6px solid var(--accent);
+}
+
+.specialist-text {
+  margin: 0;
+  white-space: pre-wrap;
+  font-family: "Manrope", sans-serif;
+  line-height: 1.5;
+  color: #20341a;
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
