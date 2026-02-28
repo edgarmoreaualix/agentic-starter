@@ -3,7 +3,7 @@
   "status": "done",
   "files_changed": ["frontend/placeholders/orch-06/loop-007-app/specialist-message.txt","docs/placeholders/orch-06/loop-007-app/accountability-note.md"],
   "tests_run": ["placeholder"],
-  "commit_sha": "",
+  "commit_sha": "d3926ee246db81dcbacb22ab3a152e95457e6283",
   "summary": "Loop 007 tiny app artifacts created for worker-accountability.",
   "risks": []
 }

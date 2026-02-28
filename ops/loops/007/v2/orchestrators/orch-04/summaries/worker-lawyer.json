@@ -3,7 +3,7 @@
   "status": "done",
   "files_changed": ["frontend/placeholders/orch-04/loop-007-app/specialist-message.txt","docs/placeholders/orch-04/loop-007-app/legal-note.md"],
   "tests_run": ["placeholder"],
-  "commit_sha": "",
+  "commit_sha": "2fda65537554058cd7a2690f473589e7840a7de3",
   "summary": "Loop 007 tiny app artifacts created for worker-lawyer.",
   "risks": []
 }
