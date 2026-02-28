@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "project_id": "orch-02",
+  "release": "loop-008",
+  "status": "upgraded",
+  "metrics": {"uptime": "99.9%", "latency_ms": 42}
+}
