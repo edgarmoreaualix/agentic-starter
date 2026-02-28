@@ -1,0 +1,18 @@
+{
+  "task_id": "009-orch-03-worker-qa",
+  "status": "done",
+  "files_changed": [
+    "tests/apps/orch-03-webapp/smoke.sh",
+    "tests/apps/orch-03-webapp/checklist.md",
+    "tests/apps/orch-03-webapp/result.json"
+  ],
+  "tests_run": [
+    "bash tests/apps/orch-03-webapp/smoke.sh",
+    "jq -e '.status==\"pass\" and (.checks|length>=5)' tests/apps/orch-03-webapp/result.json"
+  ],
+  "commit_sha": "0559f31becff53ff4b8e9f198564921305aa29bc",
+  "summary": "Added executable smoke checks, manual QA checklist, and passing QA result artifact for integration verification.",
+  "risks": [
+    "Task-level commit guidance was not executed as separate commits in this run."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "checks": [
+    "required_file_presence",
+    "backend_api_schema",
+    "backend_meta_schema",
+    "frontend_data_paths",
+    "specialist_copy_presence"
+  ],
+  "files_checked": [
+    "backend/apps/orch-03-webapp/api.json",
+    "backend/apps/orch-03-webapp/meta.json",
+    "frontend/apps/orch-03-webapp/index.html",
+    "frontend/apps/orch-03-webapp/styles.css",
+    "frontend/apps/orch-03-webapp/app.js",
+    "frontend/apps/orch-03-webapp/specialist.txt",
+    "tests/apps/orch-03-webapp/smoke.sh",
+    "tests/apps/orch-03-webapp/checklist.md"
+  ]
+}
