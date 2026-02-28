@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Loop 009 webapp review</title>
+<style>
+body{font-family:system-ui;margin:0;background:#f5f7fb}.card{max-width:900px;margin:32px auto;padding:20px;border-radius:14px;border:1px solid #ddd;background:#fff}
+.row{margin:10px 0}.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{font-size:12px;padding:3px 10px;border-radius:999px;border:1px solid #bbb;background:#fff}
+.msg{padding:10px;border-radius:8px;border:1px solid #ccc;background:#fff}pre{background:#111;color:#ddd;padding:12px;border-radius:8px;overflow:auto}
+</style></head><body><main class="card" id="app">Loading…</main>
+<script src="./orch-04-data.js"></script>
+<script>
+document.body.style.background = d.api.background;
+const app=document.getElementById('app');
+app.style.borderColor=d.api.accent;
+app.innerHTML = [
+  '<h1 style="margin:0;color:'+d.api.color+'">'+d.api.project_id+' (Loop 009 review)</h1>',
+  '<p style="opacity:.8">Owner: '+d.meta.owner+' • loop '+d.meta.loop+' • version '+d.meta.version+'</p>',
+  '<div class="row chips">'+
+    '<span class="chip">status '+d.api.status+'</span>'+
+    '<span class="chip">color '+d.api.color+'</span>'+
+    '<span class="chip">accent '+d.api.accent+'</span>'+
+    '<span class="chip">QA '+d.qa.status+'</span>'+
+  '</div>',
+  '<div class="row"><strong>Specialist text on page</strong><div class="msg">'+d.specialist.replace(/\\n/g,'<br>')+'</div></div>',
+  '<div class="row"><strong>Features</strong><div class="chips">'+(d.api.features||[]).map(function(f){return "<span class=\"chip\">"+f+"</span>";}).join('')+'</div></div>',
+  '<div class="row"><strong>API payload</strong><pre>'+JSON.stringify(d.api,null,2)+'</pre></div>'
+].join('');
+</script></body></html>

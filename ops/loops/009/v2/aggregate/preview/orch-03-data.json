@@ -1,0 +1,40 @@
+{
+  "api": {
+    "project_id": "orch-03-webapp",
+    "color": "green",
+    "accent": "#52c41a",
+    "background": "#f6ffed",
+    "status": "active",
+    "features": [
+      "Backend-driven status banner",
+      "Feature list rendering",
+      "Specialist text integration"
+    ]
+  },
+  "meta": {
+    "owner": "orch-03",
+    "loop": 9,
+    "version": 1
+  },
+  "specialist": "Compliance scope: informational product status messaging for orch-03-webapp only.\nDo not treat this content as legal advice or as a regulatory determination.\nAny deployment decision should be reviewed against your jurisdiction and policy obligations.",
+  "qa": {
+    "status": "pass",
+    "checks": [
+      "required_file_presence",
+      "backend_api_schema",
+      "backend_meta_schema",
+      "frontend_data_paths",
+      "specialist_copy_presence"
+    ],
+    "checked_files": [
+      "backend/apps/orch-03-webapp/api.json",
+      "backend/apps/orch-03-webapp/meta.json",
+      "frontend/apps/orch-03-webapp/index.html",
+      "frontend/apps/orch-03-webapp/styles.css",
+      "frontend/apps/orch-03-webapp/app.js",
+      "frontend/apps/orch-03-webapp/specialist.txt",
+      "tests/apps/orch-03-webapp/smoke.sh",
+      "tests/apps/orch-03-webapp/checklist.md"
+    ]
+  }
+}

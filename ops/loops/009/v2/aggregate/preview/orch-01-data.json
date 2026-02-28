@@ -1,0 +1,32 @@
+{
+  "api": {
+    "project_id": "orch-01-webapp",
+    "color": "red",
+    "accent": "#ff4d4f",
+    "background": "#fff1f0",
+    "status": "active",
+    "features": [
+      "Live backend payload fetch",
+      "Specialist message rendering",
+      "Color-token driven UI"
+    ]
+  },
+  "meta": {
+    "owner": "orch-01",
+    "loop": 9,
+    "version": 1
+  },
+  "specialist": "Launch the red-theme webapp in minutes, not days.\nYour team gets clear status, real features, and a message users actually read.\nStart your pilot now and prove value before the next sprint review.",
+  "qa": {
+    "status": "pass",
+    "checks": [
+      "required files exist and are non-empty",
+      "api.json schema and required values validated",
+      "meta.json owner/loop/version validated",
+      "frontend app.js references api and specialist paths",
+      "frontend styles include required project colors",
+      "specialist.txt has between 2 and 4 non-empty lines"
+    ],
+    "checked_files": null
+  }
+}

@@ -1,0 +1,42 @@
+const d = {
+  "api": {
+    "project_id": "orch-02-webapp",
+    "color": "blue",
+    "accent": "#1677ff",
+    "background": "#f0f5ff",
+    "status": "active",
+    "features": [
+      "Live backend payload rendering",
+      "Specialist copy integration",
+      "Simple static deployment"
+    ]
+  },
+  "meta": {
+    "owner": "orch-02",
+    "loop": 9,
+    "version": 1
+  },
+  "specialist": "Launch faster with a focused blue-first product story.\nTurn backend proof points into buyer confidence in seconds.\nStart your first conversion sprint today and ship the page this week.",
+  "qa": {
+    "status": "pass",
+    "checks": [
+      "required files exist and are non-empty",
+      "api.json required schema and values",
+      "meta.json required schema and values",
+      "frontend references api.json and specialist.txt",
+      "frontend files include project color values",
+      "specialist.txt line count and CTA keyword"
+    ],
+    "checked_files": [
+      "backend/apps/orch-02-webapp/api.json",
+      "backend/apps/orch-02-webapp/meta.json",
+      "frontend/apps/orch-02-webapp/index.html",
+      "frontend/apps/orch-02-webapp/styles.css",
+      "frontend/apps/orch-02-webapp/app.js",
+      "frontend/apps/orch-02-webapp/specialist.txt",
+      "tests/apps/orch-02-webapp/smoke.sh",
+      "tests/apps/orch-02-webapp/checklist.md"
+    ]
+  }
+}
+;
