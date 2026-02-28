@@ -1,0 +1,21 @@
+{
+  "task_id": "009-orch-05-worker-frontend",
+  "status": "done",
+  "files_changed": [
+    "frontend/apps/orch-05-webapp/index.html",
+    "frontend/apps/orch-05-webapp/styles.css",
+    "frontend/apps/orch-05-webapp/app.js",
+    "frontend/apps/orch-05-webapp/README.md"
+  ],
+  "tests_run": [
+    "test -s frontend/apps/orch-05-webapp/index.html",
+    "test -s frontend/apps/orch-05-webapp/styles.css",
+    "test -s frontend/apps/orch-05-webapp/app.js",
+    "rg -n 'specialist|api.json|teal|#13c2c2|#e6fffb' frontend/apps/orch-05-webapp/*"
+  ],
+  "commit_sha": "",
+  "summary": "Implemented a static web app that fetches backend JSON and specialist text from contract paths and renders title, color chips, status, features, and specialist block with project colors.",
+  "risks": [
+    "Runtime fetches require serving from repository root so absolute paths resolve."
+  ]
+}
