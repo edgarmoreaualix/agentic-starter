@@ -1,0 +1,17 @@
+{
+  "task_id": "009-orch-02-worker-backend",
+  "status": "done",
+  "files_changed": [
+    "backend/apps/orch-02-webapp/api.json",
+    "backend/apps/orch-02-webapp/meta.json",
+    "backend/apps/orch-02-webapp/README.md"
+  ],
+  "tests_run": [
+    "jq -e '.project_id==\"orch-02-webapp\" and .color==\"blue\" and .accent==\"#1677ff\" and .background==\"#f0f5ff\" and .status==\"active\"' backend/apps/orch-02-webapp/api.json && jq -e '.loop==9 and .version==1' backend/apps/orch-02-webapp/meta.json"
+  ],
+  "commit_sha": "uncommitted",
+  "summary": "Implemented backend payloads and metadata for orch-02-webapp with documented frontend consumption contract.",
+  "risks": [
+    "No worker-specific commits were created in this run."
+  ]
+}

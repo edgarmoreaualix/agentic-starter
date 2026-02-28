@@ -1,0 +1,12 @@
+{
+  "project_id": "orch-02-webapp",
+  "color": "blue",
+  "accent": "#1677ff",
+  "background": "#f0f5ff",
+  "status": "active",
+  "features": [
+    "Live backend payload rendering",
+    "Specialist copy integration",
+    "Simple static deployment"
+  ]
+}
