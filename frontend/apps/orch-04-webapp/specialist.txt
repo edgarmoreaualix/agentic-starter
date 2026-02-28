@@ -1,0 +1,3 @@
+Compliance scope: UI messaging supports baseline informational use only.
+No legal advice is provided through this interface or its payloads.
+Use regulated workflows and counsel review before acting on outputs.

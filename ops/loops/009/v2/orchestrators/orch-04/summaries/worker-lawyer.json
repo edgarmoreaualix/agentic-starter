@@ -1,0 +1,16 @@
+{
+  "task_id": "009-orch-04-worker-lawyer",
+  "status": "done",
+  "files_changed": [
+    "frontend/apps/orch-04-webapp/specialist.txt",
+    "docs/apps/orch-04-webapp/legal-note.md"
+  ],
+  "tests_run": [
+    "test -s frontend/apps/orch-04-webapp/specialist.txt",
+    "test -s docs/apps/orch-04-webapp/legal-note.md",
+    "wc -l frontend/apps/orch-04-webapp/specialist.txt"
+  ],
+  "commit_sha": "0559f31",
+  "summary": "Authored compliance-focused specialist text in 3 lines and supporting legal rationale note with explicit scope and limitation.",
+  "risks": []
+}
