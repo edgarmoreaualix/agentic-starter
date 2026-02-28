@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>orch-02-webapp</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <h1 id="title">orch-02-webapp</h1>
+
+      <section class="panel">
+        <h2>Theme Chips</h2>
+        <div id="chips" class="chips" aria-live="polite"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Backend Status</h2>
+        <p id="status">Loading status...</p>
+        <ul id="features"></ul>
+      </section>
+
+      <section class="panel">
+        <h2>Specialist Message</h2>
+        <pre id="specialist" class="specialist">Loading specialist copy...</pre>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
