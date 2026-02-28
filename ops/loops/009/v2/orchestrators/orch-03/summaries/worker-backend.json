@@ -1,0 +1,18 @@
+{
+  "task_id": "009-orch-03-worker-backend",
+  "status": "done",
+  "files_changed": [
+    "backend/apps/orch-03-webapp/api.json",
+    "backend/apps/orch-03-webapp/meta.json",
+    "backend/apps/orch-03-webapp/README.md"
+  ],
+  "tests_run": [
+    "jq -e '.project_id==\"orch-03-webapp\" and .color==\"green\" and .accent==\"#52c41a\" and .background==\"#f6ffed\" and .status==\"active\"' backend/apps/orch-03-webapp/api.json",
+    "jq -e '.loop==9 and .version==1' backend/apps/orch-03-webapp/meta.json"
+  ],
+  "commit_sha": "0559f31becff53ff4b8e9f198564921305aa29bc",
+  "summary": "Created backend payload and metadata for orch-03-webapp with documented frontend consumption contract.",
+  "risks": [
+    "Task-level commit guidance was not executed as separate commits in this run."
+  ]
+}

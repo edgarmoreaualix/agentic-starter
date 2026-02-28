@@ -1,0 +1,12 @@
+{
+  "project_id": "orch-03-webapp",
+  "color": "green",
+  "accent": "#52c41a",
+  "background": "#f6ffed",
+  "status": "active",
+  "features": [
+    "Backend-driven status banner",
+    "Feature list rendering",
+    "Specialist text integration"
+  ]
+}
