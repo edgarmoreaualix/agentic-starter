@@ -1,0 +1,21 @@
+{
+  "loop": 8,
+  "loop_padded": "008",
+  "mode": "v2-fleet",
+  "orchestrators": [
+    "orch-01",
+    "orch-02",
+    "orch-03",
+    "orch-04",
+    "orch-05",
+    "orch-06"
+  ],
+  "workers": [
+    "worker-backend",
+    "worker-frontend",
+    "worker-qa",
+    "worker-sentinel"
+  ],
+  "expected_summaries": 30,
+  "target_commits_per_worker": 2
+}
