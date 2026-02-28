@@ -1,0 +1,18 @@
+{
+  "task_id": "009-orch-05-worker-accountability",
+  "status": "done",
+  "files_changed": [
+    "frontend/apps/orch-05-webapp/specialist.txt",
+    "docs/apps/orch-05-webapp/accountability-note.md"
+  ],
+  "tests_run": [
+    "test -s frontend/apps/orch-05-webapp/specialist.txt",
+    "test -s docs/apps/orch-05-webapp/accountability-note.md",
+    "wc -l frontend/apps/orch-05-webapp/specialist.txt"
+  ],
+  "commit_sha": "",
+  "summary": "Added 3-line accountability specialist text with explicit owner and follow-up commitment, plus concise rationale note.",
+  "risks": [
+    "Task commit guidance (2 commits) not executed in this run."
+  ]
+}
