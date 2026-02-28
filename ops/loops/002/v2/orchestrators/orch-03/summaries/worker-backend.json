@@ -1,0 +1,14 @@
+{
+  "task_id": "002-orch-03-worker-backend",
+  "status": "done",
+  "files_changed": [
+    "backend/placeholders/orch-03/project.json",
+    "backend/placeholders/orch-03/README.md"
+  ],
+  "tests_run": [
+    "none"
+  ],
+  "commit_sha": "",
+  "summary": "Created backend placeholder metadata and README for orch-03 (green).",
+  "risks": []
+}
