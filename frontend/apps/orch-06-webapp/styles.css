@@ -1,0 +1,76 @@
+:root {
+  --color-name: pink;
+  --accent: #eb2f96;
+  --bg: #fff0f6;
+  --ink: #2f1f2a;
+  --surface: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top right, #ffd6e9 0%, var(--bg) 55%, #fff 100%);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+.app {
+  width: min(760px, 92vw);
+  margin: 3rem auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid #ffd1e8;
+  border-left: 6px solid var(--accent);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 8px 24px rgba(235, 47, 150, 0.08);
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+
+h1,
+h2 {
+  margin: 0.25rem 0 0.75rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  border: 1px solid #ffc2e0;
+  background: #fff7fb;
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.82rem;
+}
+
+#features {
+  margin: 0.5rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.specialist {
+  margin: 0;
+  white-space: pre-wrap;
+  line-height: 1.4;
+  background: #fff7fb;
+  border-radius: 10px;
+  padding: 0.75rem;
+}

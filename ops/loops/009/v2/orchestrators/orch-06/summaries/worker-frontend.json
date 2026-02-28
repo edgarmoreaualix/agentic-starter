@@ -1,0 +1,21 @@
+{
+  "task_id": "009-orch-06-worker-frontend",
+  "status": "done",
+  "files_changed": [
+    "frontend/apps/orch-06-webapp/index.html",
+    "frontend/apps/orch-06-webapp/styles.css",
+    "frontend/apps/orch-06-webapp/app.js",
+    "frontend/apps/orch-06-webapp/README.md"
+  ],
+  "tests_run": [
+    "test -s frontend/apps/orch-06-webapp/index.html",
+    "test -s frontend/apps/orch-06-webapp/styles.css",
+    "test -s frontend/apps/orch-06-webapp/app.js",
+    "rg -n \"specialist|api.json|pink|#eb2f96|#fff0f6\" frontend/apps/orch-06-webapp/*"
+  ],
+  "commit_sha": "",
+  "summary": "Built frontend app scaffold and data loaders for backend API + specialist text, rendering title/chips/status/features/message and documented local run.",
+  "risks": [
+    "No commits were created in this orchestration run."
+  ]
+}

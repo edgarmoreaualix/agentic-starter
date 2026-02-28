@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>orch-06-webapp</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app" aria-live="polite">
+      <header class="panel">
+        <p class="eyebrow">Loop 009</p>
+        <h1 id="project-title">orch-06-webapp</h1>
+        <div id="chips" class="chips"></div>
+      </header>
+
+      <section class="panel">
+        <h2>Backend Snapshot</h2>
+        <p>Status: <strong id="status">Loading...</strong></p>
+        <ul id="features"></ul>
+      </section>
+
+      <section class="panel">
+        <h2>Specialist Message</h2>
+        <pre id="specialist" class="specialist">Loading specialist text...</pre>
+      </section>
+    </main>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
