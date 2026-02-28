@@ -1,0 +1,3 @@
+Compliance scope: informational product status messaging for orch-03-webapp only.
+Do not treat this content as legal advice or as a regulatory determination.
+Any deployment decision should be reviewed against your jurisdiction and policy obligations.

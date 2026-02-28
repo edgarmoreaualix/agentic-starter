@@ -1,0 +1,18 @@
+{
+  "task_id": "009-orch-03-worker-lawyer",
+  "status": "done",
+  "files_changed": [
+    "frontend/apps/orch-03-webapp/specialist.txt",
+    "docs/apps/orch-03-webapp/legal-note.md"
+  ],
+  "tests_run": [
+    "test -s frontend/apps/orch-03-webapp/specialist.txt",
+    "test -s docs/apps/orch-03-webapp/legal-note.md",
+    "wc -l frontend/apps/orch-03-webapp/specialist.txt"
+  ],
+  "commit_sha": "0559f31becff53ff4b8e9f198564921305aa29bc",
+  "summary": "Authored compliance-focused specialist copy with explicit scope and limitation language, plus rationale note in six-or-fewer bullets.",
+  "risks": [
+    "Task-level commit guidance was not executed as separate commits in this run."
+  ]
+}
