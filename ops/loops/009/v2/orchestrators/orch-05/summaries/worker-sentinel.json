@@ -1,0 +1,15 @@
+{
+  "task_id": "009-orch-05-worker-sentinel",
+  "status": "done",
+  "files_changed": [
+    "docs/apps/orch-05-webapp/bug-watch.md",
+    "docs/apps/orch-05-webapp/hardening.md"
+  ],
+  "tests_run": [
+    "test -s docs/apps/orch-05-webapp/bug-watch.md",
+    "test -s docs/apps/orch-05-webapp/hardening.md"
+  ],
+  "commit_sha": "",
+  "summary": "Documented likely integration failures with quick checks and listed low-risk hardening actions for next iteration without product behavior changes.",
+  "risks": []
+}
