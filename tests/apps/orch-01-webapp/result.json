@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "checks": [
+    "required files exist and are non-empty",
+    "api.json schema and required values validated",
+    "meta.json owner/loop/version validated",
+    "frontend app.js references api and specialist paths",
+    "frontend styles include required project colors",
+    "specialist.txt has between 2 and 4 non-empty lines"
+  ],
+  "checked_files": [
+    "backend/apps/orch-01-webapp/api.json",
+    "backend/apps/orch-01-webapp/meta.json",
+    "frontend/apps/orch-01-webapp/index.html",
+    "frontend/apps/orch-01-webapp/styles.css",
+    "frontend/apps/orch-01-webapp/app.js",
+    "frontend/apps/orch-01-webapp/specialist.txt",
+    "tests/apps/orch-01-webapp/smoke.sh",
+    "tests/apps/orch-01-webapp/checklist.md"
+  ]
+}
