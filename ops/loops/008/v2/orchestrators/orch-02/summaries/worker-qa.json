@@ -1,0 +1,9 @@
+{
+  "task_id": "008-orch-02-worker-qa",
+  "status": "done",
+  "files_changed": ["tests/placeholders/orch-02/loop-008-app/checklist.md","tests/placeholders/orch-02/loop-008-app/result.json"],
+  "tests_run": ["placeholder"],
+  "commit_sha": "",
+  "summary": "Loop 008 app upgrade artifacts created for worker-qa.",
+  "risks": []
+}
