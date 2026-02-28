@@ -1,0 +1,19 @@
+{
+  "task_id": "009-orch-01-worker-marketing",
+  "status": "done",
+  "files_changed": [
+    "frontend/apps/orch-01-webapp/specialist.txt",
+    "docs/apps/orch-01-webapp/marketing-note.md",
+    "ops/loops/009/v2/orchestrators/orch-01/summaries/worker-marketing.json"
+  ],
+  "tests_run": [
+    "test -s frontend/apps/orch-01-webapp/specialist.txt",
+    "test -s docs/apps/orch-01-webapp/marketing-note.md",
+    "wc -l frontend/apps/orch-01-webapp/specialist.txt"
+  ],
+  "commit_sha": "0559f31+uncommitted",
+  "summary": "Added concise conversion-oriented specialist copy (3 lines, includes CTA) and a short rationale note within six bullets.",
+  "risks": [
+    "Copy has not yet been A/B tested against alternatives."
+  ]
+}

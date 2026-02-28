@@ -1,0 +1,3 @@
+Launch the red-theme webapp in minutes, not days.
+Your team gets clear status, real features, and a message users actually read.
+Start your pilot now and prove value before the next sprint review.
