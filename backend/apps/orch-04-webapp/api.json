@@ -1,0 +1,12 @@
+{
+  "project_id": "orch-04-webapp",
+  "color": "orange",
+  "accent": "#fa8c16",
+  "background": "#fff7e6",
+  "status": "active",
+  "features": [
+    "Backend payload endpoint",
+    "Specialist message rendering",
+    "Lightweight static app shell"
+  ]
+}

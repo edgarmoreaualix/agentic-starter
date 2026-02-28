@@ -1,0 +1,16 @@
+{
+  "task_id": "009-orch-04-worker-backend",
+  "status": "done",
+  "files_changed": [
+    "backend/apps/orch-04-webapp/api.json",
+    "backend/apps/orch-04-webapp/meta.json",
+    "backend/apps/orch-04-webapp/README.md"
+  ],
+  "tests_run": [
+    "jq -e '.project_id==\"orch-04-webapp\" and .color==\"orange\" and .accent==\"#fa8c16\" and .background==\"#fff7e6\" and .status==\"active\"' backend/apps/orch-04-webapp/api.json",
+    "jq -e '.loop==9 and .version==1' backend/apps/orch-04-webapp/meta.json"
+  ],
+  "commit_sha": "0559f31",
+  "summary": "Created backend payload and metadata files for orch-04-webapp, plus README documenting frontend consumption contract.",
+  "risks": []
+}
