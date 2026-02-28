@@ -1,0 +1,9 @@
+{
+  "task_id": "007-orch-06-worker-qa",
+  "status": "done",
+  "files_changed": ["tests/placeholders/orch-06/loop-007-app/checklist.md","tests/placeholders/orch-06/loop-007-app/result.json"],
+  "tests_run": ["placeholder"],
+  "commit_sha": "",
+  "summary": "Loop 007 tiny app artifacts created for worker-qa.",
+  "risks": []
+}
