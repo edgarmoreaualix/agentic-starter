@@ -1,9 +1,9 @@
 {
   "task_id": "004-orch-01-worker-backend",
   "status": "done",
-  "files_changed": ["backend/placeholders/orch-01/service.json","backend/placeholders/orch-01/README.md"],
-  "tests_run": ["none"],
+  "files_changed": ["backend/placeholders/orch-01/loop-004-service.json","backend/placeholders/orch-01/loop-004-README.md"],
+  "tests_run": ["placeholder"],
   "commit_sha": "",
-  "summary": "Backend placeholder packet created for orch-01.",
+  "summary": "Loop 004 placeholder artifacts created for worker-backend.",
   "risks": []
 }
