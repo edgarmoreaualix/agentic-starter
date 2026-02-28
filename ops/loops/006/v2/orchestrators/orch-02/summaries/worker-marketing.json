@@ -1,0 +1,9 @@
+{
+  "task_id": "006-orch-02-worker-marketing",
+  "status": "done",
+  "files_changed": ["docs/placeholders/orch-02/loop-006-marketing-brief.md","docs/placeholders/orch-02/loop-006-marketing-copy.md"],
+  "tests_run": ["placeholder"],
+  "commit_sha": "",
+  "summary": "Loop 006 placeholder artifacts created for worker-marketing.",
+  "risks": []
+}
