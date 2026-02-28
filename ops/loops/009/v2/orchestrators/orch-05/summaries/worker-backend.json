@@ -1,0 +1,18 @@
+{
+  "task_id": "009-orch-05-worker-backend",
+  "status": "done",
+  "files_changed": [
+    "backend/apps/orch-05-webapp/api.json",
+    "backend/apps/orch-05-webapp/meta.json",
+    "backend/apps/orch-05-webapp/README.md"
+  ],
+  "tests_run": [
+    "jq -e '.project_id==\"orch-05-webapp\" and .color==\"teal\" and .accent==\"#13c2c2\" and .background==\"#e6fffb\" and .status==\"active\"' backend/apps/orch-05-webapp/api.json",
+    "jq -e '.loop==9 and .version==1' backend/apps/orch-05-webapp/meta.json"
+  ],
+  "commit_sha": "",
+  "summary": "Created backend payload and metadata files with required schema and project color values, plus README consumption contract for frontend fetch path.",
+  "risks": [
+    "Per-worker commit split requested in task guidance was not created in this execution."
+  ]
+}

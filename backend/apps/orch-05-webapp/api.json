@@ -1,0 +1,12 @@
+{
+  "project_id": "orch-05-webapp",
+  "color": "teal",
+  "accent": "#13c2c2",
+  "background": "#e6fffb",
+  "status": "active",
+  "features": [
+    "Backend payload fetch",
+    "Specialist accountability message render",
+    "Status and feature summary panel"
+  ]
+}
