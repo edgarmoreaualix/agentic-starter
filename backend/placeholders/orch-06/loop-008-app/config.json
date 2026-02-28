@@ -1,0 +1,6 @@
+{
+  "project_id": "orch-06",
+  "version": 8,
+  "color": "pink",
+  "features": ["status", "metrics", "specialist_message"]
+}
