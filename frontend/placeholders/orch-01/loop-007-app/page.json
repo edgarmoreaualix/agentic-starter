@@ -1,0 +1,6 @@
+{
+  "project_id": "orch-01",
+  "title": "Loop 007 App orch-01",
+  "message_file": "frontend/placeholders/orch-01/loop-007-app/specialist-message.txt",
+  "api_source": "backend/placeholders/orch-01/loop-007-app/api.json"
+}
