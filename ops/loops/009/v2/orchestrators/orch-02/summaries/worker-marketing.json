@@ -1,0 +1,16 @@
+{
+  "task_id": "009-orch-02-worker-marketing",
+  "status": "done",
+  "files_changed": [
+    "frontend/apps/orch-02-webapp/specialist.txt",
+    "docs/apps/orch-02-webapp/marketing-note.md"
+  ],
+  "tests_run": [
+    "test -s frontend/apps/orch-02-webapp/specialist.txt && test -s docs/apps/orch-02-webapp/marketing-note.md && wc -l frontend/apps/orch-02-webapp/specialist.txt"
+  ],
+  "commit_sha": "uncommitted",
+  "summary": "Added concise conversion-focused specialist copy with a direct CTA plus a short rationale note.",
+  "risks": [
+    "No worker-specific commits were created in this run."
+  ]
+}
