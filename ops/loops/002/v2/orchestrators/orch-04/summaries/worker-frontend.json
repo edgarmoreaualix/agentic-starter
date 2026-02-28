@@ -1,0 +1,14 @@
+{
+  "task_id": "002-orch-04-worker-frontend",
+  "status": "done",
+  "files_changed": [
+    "frontend/placeholders/orch-04/theme.json",
+    "frontend/placeholders/orch-04/PREVIEW.md"
+  ],
+  "tests_run": [
+    "none"
+  ],
+  "commit_sha": "",
+  "summary": "Created frontend placeholder theme and preview for orch-04 (orange).",
+  "risks": []
+}
