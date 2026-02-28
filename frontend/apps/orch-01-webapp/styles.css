@@ -1,0 +1,98 @@
+:root {
+  --color-name: red;
+  --accent: #ff4d4f;
+  --background: #fff1f0;
+  --ink: #3b0f12;
+  --panel: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, #ffd6d6 0, transparent 45%),
+    linear-gradient(160deg, var(--background), #fff);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.app {
+  width: min(760px, 100%);
+  display: grid;
+  gap: 16px;
+}
+
+.hero,
+.panel {
+  background: var(--panel);
+  border: 1px solid #ffc9c9;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 10px 24px rgba(255, 77, 79, 0.12);
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a4282d;
+}
+
+h1,
+h2 {
+  margin: 0 0 12px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  border-radius: 999px;
+  border: 1px solid #f4a6a8;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+  background: #fff;
+}
+
+#status-text {
+  margin: 0 0 10px;
+  font-weight: 700;
+  color: #7d1f22;
+}
+
+#feature-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+#feature-list li {
+  margin: 4px 0;
+}
+
+#specialist-message {
+  margin: 0;
+  white-space: pre-wrap;
+  font-family: "Courier New", monospace;
+  line-height: 1.4;
+  background: #fff8f8;
+  border: 1px dashed #ffb0b2;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.error {
+  margin: 0;
+  color: #a4282d;
+  font-weight: 700;
+}
