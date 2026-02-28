@@ -1,0 +1,19 @@
+{
+  "task_id": "009-orch-01-worker-backend",
+  "status": "done",
+  "files_changed": [
+    "backend/apps/orch-01-webapp/api.json",
+    "backend/apps/orch-01-webapp/meta.json",
+    "backend/apps/orch-01-webapp/README.md",
+    "ops/loops/009/v2/orchestrators/orch-01/summaries/worker-backend.json"
+  ],
+  "tests_run": [
+    "jq -e '.project_id==\"orch-01-webapp\" and .color==\"red\" and .accent==\"#ff4d4f\" and .background==\"#fff1f0\" and .status==\"active\"' backend/apps/orch-01-webapp/api.json",
+    "jq -e '.loop==9 and .version==1' backend/apps/orch-01-webapp/meta.json"
+  ],
+  "commit_sha": "0559f31+uncommitted",
+  "summary": "Implemented backend payload and metadata files with required schema/values and documented frontend consumption contract.",
+  "risks": [
+    "No per-worker commits were created in this orchestration run."
+  ]
+}
