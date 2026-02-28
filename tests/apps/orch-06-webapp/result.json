@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "checks": [
+    "backend/apps/orch-06-webapp/api.json exists and matches required schema",
+    "backend/apps/orch-06-webapp/meta.json exists and matches required schema",
+    "frontend/apps/orch-06-webapp/specialist.txt exists",
+    "specialist text includes owner",
+    "specialist text includes follow-up commitment",
+    "frontend app references backend and specialist paths"
+  ],
+  "files_checked": [
+    "backend/apps/orch-06-webapp/api.json",
+    "backend/apps/orch-06-webapp/meta.json",
+    "frontend/apps/orch-06-webapp/specialist.txt",
+    "frontend/apps/orch-06-webapp/app.js",
+    "tests/apps/orch-06-webapp/smoke.sh"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "009-orch-06-worker-qa",
+  "status": "done",
+  "files_changed": [
+    "tests/apps/orch-06-webapp/smoke.sh",
+    "tests/apps/orch-06-webapp/checklist.md",
+    "tests/apps/orch-06-webapp/result.json"
+  ],
+  "tests_run": [
+    "bash tests/apps/orch-06-webapp/smoke.sh",
+    "jq -e '.status==\"pass\" and (.checks|length>=5)' tests/apps/orch-06-webapp/result.json"
+  ],
+  "commit_sha": "",
+  "summary": "Implemented smoke checks for required artifacts and schema/text contract, added manual checklist, and recorded passing result JSON.",
+  "risks": [
+    "No commits were created in this orchestration run."
+  ]
+}
