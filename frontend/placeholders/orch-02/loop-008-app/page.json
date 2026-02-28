@@ -1,0 +1,6 @@
+{
+  "project_id": "orch-02",
+  "title": "Loop 008 Upgraded App orch-02",
+  "sections": ["hero", "status", "specialist-message"],
+  "api_source": "backend/placeholders/orch-02/loop-008-app/api.json"
+}
