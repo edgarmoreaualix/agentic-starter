@@ -1,0 +1,18 @@
+{
+  "task_id": "009-orch-06-worker-accountability",
+  "status": "done",
+  "files_changed": [
+    "frontend/apps/orch-06-webapp/specialist.txt",
+    "docs/apps/orch-06-webapp/accountability-note.md"
+  ],
+  "tests_run": [
+    "test -s frontend/apps/orch-06-webapp/specialist.txt",
+    "test -s docs/apps/orch-06-webapp/accountability-note.md",
+    "wc -l frontend/apps/orch-06-webapp/specialist.txt"
+  ],
+  "commit_sha": "",
+  "summary": "Added 3-line accountability specialist text including owner and follow-up commitment, with a concise rationale note.",
+  "risks": [
+    "No commits were created in this orchestration run."
+  ]
+}

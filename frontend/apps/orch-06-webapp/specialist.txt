@@ -1,0 +1,3 @@
+Owner: orch-06.
+I track open issues daily and post accountability notes.
+Follow-up commitment: I will publish the next risk update by end of day.
