@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Loop 007 - App Preview</title>
+  <style>
+    body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#f6f8fb;color:#111}
+    header{padding:16px 20px;background:#111;color:#fff}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;padding:16px}
+    .card{border-radius:12px;padding:14px;border:1px solid #ddd;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+    .title{font-weight:700;margin-bottom:6px}
+    .meta{font-size:13px;opacity:.8;margin-bottom:10px}
+    .msg{padding:8px;border-radius:8px;background:#fff;border:1px solid rgba(0,0,0,.1);font-size:14px}
+    .chips{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}
+    .chip{font-size:12px;padding:2px 8px;border-radius:999px;border:1px solid rgba(0,0,0,.2);background:#fff}
+    code{font-size:12px;opacity:.8}
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Loop 007 Mixed-Team App Preview</strong></div>
+    <div style="opacity:.8;font-size:13px">backend + frontend + qa + sentinel + specialist message</div>
+  </header>
+  <section class="grid" id="grid"></section>
+  <script src="./projects.js"></script>
+  <script>
+    const grid = document.getElementById('grid');
+    for (const p of projects) {
+      const card = document.createElement('article');
+      card.className = 'card';
+      card.style.background = p.style.background;
+      card.style.borderColor = p.style.accent;
+      card.innerHTML = `
+        <div class="title" style="color:${p.style.color}">${p.page.title}</div>
+        <div class="meta"><code>${p.orch}</code> | ${p.specialistRole}</div>
+        <div class="msg">${p.specialistMessage}</div>
+        <div class="chips">
+          <span class="chip">accent ${p.style.accent}</span>
+          <span class="chip">api ok ${p.api.ok}</span>
+          <span class="chip">qa ${p.qa.status}</span>
+          <span class="chip">sentinel watch</span>
+        </div>
+      `;
+      grid.appendChild(card);
+    }
+  </script>
+</body>
+</html>
