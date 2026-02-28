@@ -3,7 +3,7 @@
   "status": "done",
   "files_changed": ["frontend/placeholders/orch-01/loop-008-app/specialist-message.txt","docs/placeholders/orch-01/loop-008-app/marketing-note.md"],
   "tests_run": ["placeholder"],
-  "commit_sha": "",
+  "commit_sha": "eb2b118b527ca9b30b56b91ffa76fec5685ddbd1",
   "summary": "Loop 008 app upgrade artifacts created for worker-marketing.",
   "risks": []
 }

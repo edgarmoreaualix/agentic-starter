@@ -3,7 +3,7 @@
   "status": "done",
   "files_changed": ["frontend/placeholders/orch-06/loop-008-app/specialist-message.txt","docs/placeholders/orch-06/loop-008-app/accountability-note.md"],
   "tests_run": ["placeholder"],
-  "commit_sha": "",
+  "commit_sha": "ade945fbebb1cc1c3d95a9f198d7f9a6c98ff1d7",
   "summary": "Loop 008 app upgrade artifacts created for worker-accountability.",
   "risks": []
 }
